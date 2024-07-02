@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos de la Once - Extra día del padre</title>
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <!-- CDN bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+    <!-- fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet"> 
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="rollover.js"></script> <!-- Aquí cargamos el archivo JavaScript -->
+
+</head>
+
+
+
+<body>
+   
+<main>
+
+<!--Cabecera con el logo  -->
+
+<div class="container py-4">
+  <header class="pb-3 mb-4 border-bottom">
+    <a href="https://www.once.es">
+      <img class="img-fluid" style="width: 300px" src="images/Logo_ONCE.png" alt="Logo_ONCE">
+    </a>
+    <a href="https://www.juegosonce.es/" class="d-flex align-items-center text-body-emphasis text-decoration-none txt_once">
+    </a>
+    
+  </header>
+
+  <!-- Sección anuncio extra día del padre -->
+  <img class="cupones align-items-center img-fluid" src="images/cupones.png" alt="banner_extra_del_padre">
+    
+  <div class="p-5 mb-4 bg-body-tertiary rounded-3 translate-center">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Extra día del padre</h1>
+      <p class="col-md-12 fs-4">¡Ha regresado un año más el sorteo del Extra del Día del Padre de la ONCE! Compra ahora tu cupón del Extra Día del Padre a través de Internet o en cualquiera de nuestros puntos de venta autorizados para buscar la suerte y que tus mayores deseos, puedan hacerse realidad.
+
+        No te lo pierdas y participa el próximo  <i> 19 de marzo de 2024 </i> en este sorteo extra en el que podrás ganar hasta 17.000.000 €. <br> <br> ¡Otro año más la <b>ONCE</b> te trae nuevas ilusiones!</p>
+    </div>
+  </div>
+
+
+<!-- Sección premio y sorteo -->
+
+  <div class="card row align-items-center" style="width:fit-content">
+    <img src="images/banner.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Por solo 5 €</h5>
+      <p class="card-text">Ya puedes comprar el cupón del Extra Día del Padre de la ONCE por solo 5 € y optar a ganar un premio de hasta 17.000.000 €.
+
+        Además, se repartirán 99 premios de 40.000 € a todas las series de un número de 5 cifras y 900 premios de 1.500 €.
+        
+        Por si esto fuera poco, se repartirán 9.000 premios de 100 € y 90.000 premios de 10 €, y miles de premios más a terminaciones y reintegros. <br> <br>
+        
+        La emisión del producto, estará formada por 100.000 números de cinco cifras entre el 00000 y el 99999, más un número de serie comprendido entre el 1 y el 100.</p>
+      <a href="https://www.once.es/Comprometidos/once-innova/reto-once-innova/reto-once-innova-2021/propuestas/identificacion-de-puntos-de-venta-once-en-google-maps"
+       class="btn btn-outline-success">Puntos de venta</a>
+    </div>
+  </div>
+
+  <div></div>
+  
+  
+  <!-- Sección de la tabla de premios -->
+  <table class="table mt-4">
+    <thead>
+      <tr>
+        <th scope="col">Premios</th>
+        <th scope="col">Importes</th>
+        <th scope="col">Número de cifras</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>17.000.000€</td>
+        <td>a las 5 cifras + la serie</td>
+      </tr>
+      <tr>
+        <th scope="row">99</th>
+        <td>40.000€</td>
+        <td>a las cinco cifras</td>
+      </tr>
+      <tr>
+        <th scope="row">900</th>
+        <td>1.500€</td>
+        <td>a las cuatro últimas cifras</td>
+      </tr>
+      <tr>
+        <th scope="row">9.000</th>
+        <td>100€</td>
+        <td>a las tres últimas cifras</td>
+      </tr>
+      <tr>
+        <th scope="row">90.000</th>
+        <td>10€</td>
+        <td>a las dos últimas cifras</td>
+      </tr>
+      <tr>
+        <th scope="row">900.000</th>
+        <td>5€</td>
+        <td>a la última cifra</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+<!-- Código calculo temporal día del sorteo -->
+<div class="container">
+  <!-- Código calculo temporal día del sorteo -->
+  <div class="row">
+    <div class="col-md-6">
+      <p>Tiempo restante para el <mark>próximo sorteo:</mark></p>
+    </div>
+    <!-- Siguiente elemento cuenta atrás -->
+    <div class="col-md-6">
+      <p id="demo" class="mb-0 text-left"></p>
+    </div>
+  </div>
+</div>
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Mar 19, 2025 20:00:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="demo"
+    document.getElementById("demo").innerHTML = days + " días" + " " + hours + " horas" + " " +
+      minutes + " minutos" + " " + seconds + " segundos";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "El plazo ha expirado";
+    }
+  }, 1000);
+</script>
+
+
+
+
+  
+
+<!-- Sección de Juego responsable -->
+  <div class="row align-items-md-stretch">
+    <div class="col-md-6 mt-3 mx-auto"> <!-- Agregamos la clase mx-auto para centrar -->
+      <div class="h-100 p-5 bg-light rounded-3">
+        <h2>Juega Responsablemente.</h2>
+        <p>Como núcleo de su actividad comercial, la ONCE ha suscrito los principios de Juego Responsable que implican: la prevención del juego de menores de edad y de las personas incapacitadas o que tengan prohibido su acceso al juego; la prevención del juego excesivo y la prevención del fraude y del lavado de dinero.</p>
+        <a href="https://www.once.es/Comprometidos/juego-responsable">
+          <button class="btn btn-outline-success" type="button">Más información</button>
+        </a>
+      </div>
+    </div>
+</div>
+    
+<!-- Rollover JS -->
+
+<div class="container mt-5">
+  <section id="RO_container" class="row">
+    <div class="col-md-4">
+      <figure>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/367305/ceiling.jpg" alt="image of ceiling" />
+        <figcaption>
+          <h2>Ceiling</h2>
+          <p>This is a cool ceiling</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/367305/stairs.jpg" alt="image of stairs" />
+        <figcaption>
+          <h2>Stairs</h2>
+          <p>These are cool stairs</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <figure>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/367305/building.jpg" alt="image of a building" />
+        <figcaption>
+          <h2>Building</h2>
+          <p>This is a cool building</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+</div>
+
+
+<footer>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2024 ONCE - Todos los derechos reservados.</p>
+        
+    </div>
+
+</footer>
+</body>
+</html>
